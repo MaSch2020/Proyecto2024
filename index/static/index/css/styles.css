@@ -1,6 +1,28 @@
-.footer{
+.footer {
+  text-align: center;
+  padding: 3px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+}
+
+.iniciosesion{
     text-align: center;
-    padding: 3px;
-    background-color: black;
-    color: white;
+}
+
+.bienvenido {
+  text-align: center;
+  padding: 3px;
+  background-color: green;
+  color: white;
+}
+
+.boxsesion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boxsesion div {
+  width: 100px;
+  height: 100px;
 }
